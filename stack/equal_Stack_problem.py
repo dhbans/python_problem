@@ -26,9 +26,9 @@ class Stack:
             print(i, end = " ")
         print()
 
-h1 = [3,2,1,1,1]
-h2 = [4,3,2]
-h3 = [0]
+h1 = [4,2,1,1,1]
+h2 = [4,3]
+h3 = [4,3,2]
 st1 = Stack()
 st2 = Stack()
 st3 = Stack()
@@ -60,7 +60,7 @@ def equal_height(h1, h2, h3):
         totalst1 = st1.topvalue()
         if totalst3 == 0 or totalst1 == 0 or totalst2 ==0:
             return 0
-        
+
         if totalst1 == totalst2 and totalst2 == totalst3:
             return totalst1
 
